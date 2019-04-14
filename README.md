@@ -3,7 +3,7 @@ Resources for manage sfos-ja
 
 ## How do we manage the resources
 
-The private file will shares by the owner. At that time, owner encrypts with other member's gpg public key.
+The private file will share by the owner(which means file's owner). At that time, owner encrypts with other member's gpg public key.
 
 ```
 gpg --encrypt --armor --recipient <member's gpg key id> <private file>
